@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
+    margin: 100px;
+    background-color: #BFC8E6;
+}
+
+.overview{
+    width: 1213px;
+    height: 830px;
+    border-radius: 20px;
+}
+
+.header-nav{
+    padding: 70px;
+}
+
+h1 .heading{
+    font-weight:900 !important;
+}
+
+.nav-link{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
+    padding :16px;
+    font-weight: 600;
+    line-height:24px;
+    color: #151B32;
+}
+
+.active{
+    background-color: #849FFF;
+    color: #fff !important;
+    border-radius: 10px;
+}
+
+.form-control{
+    position: relative;
+    width: 327px;
+    height: 64px;
+}
+
+.fa-solid {
+    font-size: 24px;
+    padding-left: 10px;
+    position: absolute;
+    top:28px;
+}
+
+#label{
+    position: absolute;
+    top: 28px;
+    right:200px;
+    opacity: .8;
+    border-radius: 8px;
+}
+
+main{
+font-family: 'Dancing Script', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.main{
+    padding:0 70px;
+}
+
+.card-img-top{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 16px;
+}
+
+.title{
+    padding-top: 16px;
+    font-weight: 900 !important;
+    font-size: 18px;
+    margin: 0;
+}
+.card-text{
+    font-size:14px;
+    line-height: 21px;
+}
+
+.item{
+    font-size: 12px;
+    border: 1px solid #516FD5;
+    border-radius: 25px;
+    padding: 5px;
+    color: #516FD5;
+    font-weight: 500;
+}
+
+.border{
+    border-radius: 25px;
+    border: 1px solid #516FD5;
+}
